@@ -1,0 +1,26 @@
+package pattern;
+
+public class Alphabet_Left_Angled_Triangle2 {
+	public static void main(String[] args) {
+		alphabet2(5);
+	}
+	
+	public static void alphabet2(int n) {
+		char ch= 'A';
+		for(int i=1; i<=n; i++) {
+			for(int j=1; j<=i; j++) {
+				System.out.print(ch + " ");
+				ch++;
+			}
+			System.out.println();
+		}
+	}
+
+}
+
+//A 
+//B C 
+//D E F 
+//G H I J 
+//K L M N O 
+
